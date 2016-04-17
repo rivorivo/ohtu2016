@@ -32,7 +32,7 @@ public class Main {
         Submission[] subs = mapper.fromJson(bodyText, Submission[].class);
 
         System.out.println("Oliot:");
-        int teht=0;
+        int teht=1;
         int tunnit=0;
         for (Submission subi : subs) {
             
